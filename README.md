@@ -9,18 +9,31 @@ Steps:
 4. Head back to Cloud9 and open the Cloud9 environment.
 
 5. Inside the Cloud9 terminal, insert the following commands:
+
 sudo yum update
+
 sudo yum install docker
+
 sudo yum install gnupg2 
+
 mkdir lambda-pytesseract
+
 cd lambda-pytesseract
+
 vim Dockerfile
+
 #(insert Dockerfile script)
+
 vim requirements.txt
+
 #(insert requirements.txt script)
+
 vim example_docker_lambda.py
+
 #(insert example_docker_lambda.py script)
+
 aws configure 
+
 // In the above command, insert your access key and secret access key credentials. Cloud9 will throw a prompt. you can just hit 'cancel' and 'Re-enable after refresh'
 
 6. Now in order to get the japanese.png image, I downloaded it from S3 using the below command:
