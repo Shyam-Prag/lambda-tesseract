@@ -10,9 +10,9 @@ Steps:
 
 5. Inside the Cloud9 terminal, insert the following commands:
 
-sudo yum update
+5.1 sudo yum update
 
-sudo yum install docker
+5.2 sudo yum install docker
 
 sudo yum install gnupg2 
 
