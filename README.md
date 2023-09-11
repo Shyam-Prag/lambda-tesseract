@@ -47,3 +47,5 @@ Steps:
 8. This should succeed and you should now have your docker image inside ECR 
 
 9. Create a Lambda container function and increase memory and timeout as desired. 
+
+Note: All the above has been tested on Cloud9 which uses Amazon Linux 2 OS. This project provides a base to further implement your Tesseract business logic on AWS Lambda. This project is not fully optimized and is not the 'minimal requirements' to run Tesseract on Lambda, however is a fully functional working example. 
