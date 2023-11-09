@@ -3,7 +3,7 @@
 Run tesseract in an AWS Lambda using a Docker container. 
 
 Steps:
-1. Create a Cloud9 environment (I used a m5.large instance type) - We do this to avoid any system level dependency issues. 
+1. Create a Cloud9 environment (I used a m5.large instance type) - We use Cloud9 as it runs on AL2 which helps to avoid any system level dependency issues. 
 2. To avoid any "out of space" errors, increase the EBS volume size. (I increased from 10GB to 100GB)
 3. Once the volume state is "in use", then reboot the EC2 instance.
 4. Head back to Cloud9 and open the Cloud9 environment.
